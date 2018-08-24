@@ -9,9 +9,11 @@ namespace tuples
         {
             List<(string product, double amount, int quantity)> transactions = new List<(string, double, int)>()
             {
-                ("apples", 22, 23),
-                ("oranges", 23, 25),
-                ("pears", 21, 23),
+                ("apples", 22.50, 23),
+                ("oranges", 23.50, 25),
+                ("pears", 11.50, 23),
+                ("bananas", 31.50, 23),
+                ("peaches", 24.50, 23),
             };
             int totalProductsSold = 0;
             double TotalRevenue = 0;
